@@ -7,7 +7,7 @@ image:
   tag: dev
   pullPolicy: IfNotPresent
 service:
-  name: vertx-rest-prometheus
+  name: demo-vertx-rest-prometheus
   type: ClusterIP
   externalPort: 80
   internalPort: 8080
